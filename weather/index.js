@@ -105,7 +105,6 @@ function fetchWeatherData(location) {
             if (count === 4) break;
         }
     }).catch(error => {
-        alert(`Error fetching weather data: ${error} (Api Error)`);
     });
 }
 
